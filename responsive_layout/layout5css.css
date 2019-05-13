@@ -1,0 +1,100 @@
+#wrap{
+    width: 1200px;
+    margin: 0 auto;
+}
+body{
+    background: #e3f2fd;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background:  #81d4fa;
+}
+
+aside{
+    background: #4fc3f7;
+    float: left;
+    width: 20%;
+    height: 900px;
+}
+section{
+
+}
+.article1{
+    background: #29b6f6;
+    float: left;
+    width: 80%;
+    height: 300px;
+}
+.article2{
+    background: #03a9f4;
+    float: left;
+    width: 80%;
+    height: 300px;
+}
+.article3{
+    background: #039be5;
+    float: left;
+    width: 80%;
+    height: 300px;
+}
+
+footer{
+    clear: both;
+    background: #0288d1;
+    width: 100%;
+    height: 100px;
+}
+
+/* 화면너비 0~1200 */
+@media (max-width: 1240px) {
+    #wrap{
+        width: 100%;
+    }
+
+    .article1{
+        height: 450px;
+    }
+    .article2{
+        height: 450px;
+    }
+    .article3{
+        width: 100%;
+    }
+}
+
+/* 화면너비 0~768 */
+@media (max-width: 768px) {
+    #wrap{
+        width: 100%;
+    }
+
+    aside{
+        width: 100%;
+        height: 300px;
+    }
+    .article1{
+        width: 50%;
+    }
+    .article2{
+        width: 50%;
+    }
+}
+
+/* 화면너비 0~480 */
+@media (max-width: 480px) {
+    #wrap{
+        width: 100%;
+    }
+
+    aside{
+        width: 100%;
+    }
+    .article1{
+        width: 100%;
+    }
+    .article2{
+        width: 100%;
+    }
+}
